@@ -28,3 +28,8 @@ ignr -p python > .gitignore
 git init .
 git add .
 git commit -m "Iniciando o projeto"
+
+# Executar um arquivo especifico
+python -i fast_zero/schemas.py
+>> UserSchema(email='bla') => vai dar erro
+
