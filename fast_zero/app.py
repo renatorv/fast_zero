@@ -59,6 +59,7 @@ def delete_user(user_id: int):
 
     return {'message': 'User deleted!!'}
 
+
 # NÃO ESTÁ 100%
 @app.get('/user_by_id/{user_id}', response_model=UserPublic)
 def read_user(user_id: int, user: UserSchema):
